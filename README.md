@@ -9,5 +9,5 @@ This is a simple Streamlit app that uses the Mistral 7B Instruct language model 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/my-streamlit-app.git
+   git clone "https://github.com/Guna614/my-streamlit-app.git"
 
