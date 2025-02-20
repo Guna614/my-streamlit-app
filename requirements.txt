@@ -1,4 +1,3 @@
-# Core Dependencies
 streamlit>=1.12.0
 pandas>=1.3.0
 numpy>=1.24.0
@@ -32,3 +31,4 @@ ipython>=8.0.0
 beautifulsoup4>=4.9.3  # For table parsing
 html5lib>=1.1  # Alternative HTML parser
 tabulate>=0.8.9  # For table formatting
+nltk
