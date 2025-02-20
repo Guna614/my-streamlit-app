@@ -1,7 +1,7 @@
 # my-streamlit-app
 Financial doc analyzer
 
-# Mistral 7B Instruct Chatbot
+# Mistral 7B Instruct
 
 This is a simple Streamlit app that uses the Mistral 7B Instruct language model to generate responses based on user input.
 
