@@ -11,3 +11,4 @@ This is a simple Streamlit app that uses the Mistral 7B Instruct language model 
    ```bash
    git clone "https://github.com/Guna614/my-streamlit-app.git"
 
+App Link : https://finex-app.streamlit.app/
