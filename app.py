@@ -50,6 +50,11 @@ def extract_tables_from_pdf(filename, strategy='hi_res'):
     return dfs, tables_html
 
 
+from dotenv import load_dotenv
+load_dotenv()
+api_key = os.getenv("MISTRAL_API_KEY")
+
+
 ## Summarization code (using Mistral)
 def summarize_table(table_text, max_new_tokens=100, num_return_sequences=1):
     """
@@ -242,6 +247,7 @@ def main():
             st.error(f"An error occurred: {e}")
     else:
         st.warning("Please upload a PDF to proceed.")
+
 
 if __name__ == "__main__":
     main()
